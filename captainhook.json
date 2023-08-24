@@ -1,0 +1,15 @@
+{
+    "pre-commit": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "./vendor/bin/pint --test",
+                "options": []
+            },
+            {
+                "action": "./vendor/bin/pest --parallel",
+                "options": []
+            }
+        ]
+    }
+}
