@@ -3,6 +3,10 @@
         "enabled": true,
         "actions": [
             {
+                "action": "./vendor/bin/phpstan analyse",
+                "options": []
+            },
+            {
                 "action": "./vendor/bin/pint --test",
                 "options": []
             },
